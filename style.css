@@ -80,7 +80,7 @@ body{
 .header h1{
     font-family: "Ballet", serif;
     text-align: center;
-    font-size: 550%;
+    font-size: 3vw;
     color: white;
     font-weight: 100;
 
@@ -99,7 +99,7 @@ body{
     color: white;
     font-family: "VT323", serif;
     font-weight: 100;
-    font-size: 150%;
+    font-size: 1.5vw;
 
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -109,7 +109,7 @@ body{
 .footer2 h2{
     font-family: "Ballet", serif;
     font-weight: 100;
-    font-size: 250%;
+    font-size: 2.5vw;
     color: white;
     text-align: center;
     margin: 0;
@@ -170,12 +170,20 @@ body{
     .middle {
         flex-direction: column;
         overflow-y: auto;
-
     }
     .middle-left, .middle-right {
         width: 100%;
         height: auto;
         min-height: 400px;
     }
-}
 
+    .header h1{
+        font-size: 10vw;
+    }
+    .footer1 a{
+        font-size: 4vw;
+    }
+    .footer2 h2{
+        font-size: 4vw;
+    }
+}
